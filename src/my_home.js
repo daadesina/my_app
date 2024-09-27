@@ -30,10 +30,10 @@ const Home = () => {
             </section>
             <section className="myCategory bg-dark all_section">
                 <ul>
-                    <li className="btn text-white">Culture</li>
-                    <li className="btn text-white">Language</li>
-                    <li className="btn text-white">Politics</li>
-                    <li className="btn text-white">Education</li>
+                    <li className="list_cat text-white">Culture</li>
+                    <li className="list_cat text-white">Language</li>
+                    <li className="list_cat text-white">Politics</li>
+                    <li className="list_cat text-white">Education</li>
                 </ul>
             </section>
             <section className="myUpperSection all_section">

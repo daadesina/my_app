@@ -71,11 +71,15 @@ ul {
     display: flex;
 }
 
-li {
-    padding-right: 5px;
+.list_cat {
     padding-left: 5px;
+    padding-right: 5px;
 }
-
+.list_cat:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 30px;
+}
 
 .searchForm {
     width: 300px;
@@ -90,6 +94,7 @@ li {
 
 .myCard {
     width: 18rem;
+    flex: auto;
 }
 
 .footerLogo {
@@ -101,7 +106,7 @@ hr {
 }
 
 .myArticle {
-    width: 40vw;
+    width: 48vw;
     font-size: 1.65vw;
     color:#f5f5f5;
     text-align: justify;
